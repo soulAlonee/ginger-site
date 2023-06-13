@@ -1,0 +1,125 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    color: #000;
+}
+
+.container {
+    max-width: 1110px;
+    margin: auto;
+}
+
+.header {
+    padding: 20px 0;
+    border-bottom: 3px solid #000;
+}
+
+.header__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header___logo img {
+    width: 100px;
+    height: 100px;
+}
+
+.header__logo-text {
+    font-size: 25px;
+    font-family: 'Ubuntu', sans-serif;
+    letter-spacing: 5px;
+    font-weight: 700;
+    width: 100px;
+    padding-left: 20px;
+}
+
+.header___logo {
+    display: flex;
+    align-items: center;
+}
+
+.header__menu-list-item {
+    list-style-type: none;
+}
+
+.header__menu-list-item a {
+    font-size: 23px;
+    letter-spacing: 1.5px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+}
+
+.header__menu-list {
+    display: flex;
+    column-gap: 20px;
+}
+
+/* About */
+
+.about {
+    padding: 50px 0; 
+}
+
+.about__header {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Ubuntu';
+    letter-spacing: 5px;
+}
+
+.about__minitext {
+    font-size: 17px;
+    letter-spacing: 10px;
+}
+
+.about__main {
+    display: flex;
+    background-color: rgb(189, 184, 184);
+    border-radius: 50px;
+    margin-top: 30px;
+}
+
+.about__main img {
+    border-top-right-radius: 50px;
+    width: 500px;
+}
+
+.about__main-text {
+    padding: 30px;
+    font-size: 20px;
+    line-height: 40px;
+    font-family: 'Roboto';
+    font-weight: 500;
+}
+
+.about__join-btn {
+    margin: auto;
+    margin-top: 20px;
+    border: 1px solid #000;
+    width: 200px;
+    text-align: center;
+    padding: 15px;
+    font-size: 19px;
+    font-family: 'Ubuntu';
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: all .5s ease;
+    border-radius: 15px;
+}
+
+.about__join-btn:hover {
+    background-color: #000;
+    color: #fff;
+    border-radius: 20px;
+}
