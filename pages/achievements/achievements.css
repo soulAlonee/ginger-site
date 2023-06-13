@@ -1,0 +1,164 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    color: #000;
+}
+
+.container {
+    max-width: 1110px;
+    margin: auto;
+}
+
+.header {
+    padding: 20px 0;
+    border-bottom: 3px solid #000;
+}
+
+.header__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header___logo img {
+    width: 100px;
+    height: 100px;
+}
+
+.header__logo-text {
+    font-size: 25px;
+    font-family: 'Ubuntu', sans-serif;
+    letter-spacing: 5px;
+    font-weight: 700;
+    width: 100px;
+    padding-left: 20px;
+}
+
+.header___logo {
+    display: flex;
+    align-items: center;
+}
+
+.header__menu-list-item {
+    list-style-type: none;
+}
+
+.header__menu-list-item a {
+    font-size: 23px;
+    letter-spacing: 1.5px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+}
+
+.header__menu-list {
+    display: flex;
+    column-gap: 20px;
+}
+
+/* Achievements */
+
+.achievements {
+    padding: 50px 0;
+}
+
+.achievements__title {
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+.achievements__block {
+    background-color: rgb(216, 182, 216);
+    padding: 20px 30px;
+    border-radius: 50px;
+    margin-top: 75px;
+    row-gap: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.achievements__block-easy,
+.achievements__block-hard,
+.achievements__block-middle,
+.very-hard {
+    border: 1px solid #000;
+    border-radius: 50px;
+    padding: 15px;
+}
+
+.achievements__title-block {
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Montserrat';
+    letter-spacing: 1px;
+    margin-bottom: 50px;
+}
+
+.achievement img {
+    width: 200px;
+    height: 150px;
+}
+
+.achievement {
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.achievement__addit-title {
+    font-size: 30px;
+    font-family: 'Ubuntu';
+    letter-spacing: 3px;
+    font-weight: 700;
+}
+
+.achievement__addit-desc {
+    font-size: 25px;
+    margin-top: 15px;
+}
+
+.achievement:not(:last-of-type) {
+    margin-bottom: 50px;
+}
+
+.achievement-hurt img {
+    margin-right: 15px;
+}
+
+.time img {
+    margin: 0 25px;
+}
+
+.tus img {
+    width: auto;
+    margin-right: 20px;
+}
+
+.fire img{
+    width: 150px;
+    margin-right: 20px;
+}
+
+.money img {
+    width: 183px;
+}
+
+.achievements__bottom-text {
+    font-size: 17px;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    letter-spacing: 2px;
+}
